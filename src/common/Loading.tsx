@@ -21,7 +21,7 @@ export default function Loading({
     <div
       className={classNames(
         'flex justify-center',
-        children && 'py-6',
+        children ? 'py-6' : undefined,
         className,
       )}
     >
